@@ -20,11 +20,14 @@
 	    display: grid;
 	    grid-gap: 5px;    
 	    grid-template-columns: repeat(12, 1fr);
-	    grid-template-rows: 100px 350px 100px;
+	    grid-template-rows: 100px 100px 100px 100px 100px 100px;
 	    grid-template-areas:
 	        "h h h . . . . . . . . ."
 	        "m m m e e e e e e e e e"
-	        "c c c e e e e e e e e e";
+	        "m m m e e e e e e e e e"
+	        "m m m e e e e e e e e e"
+	        "m m m e e e e e e e e e"
+	        "c c c ed ed ed ed ed ed ed ed ed";
 	}
 
 	.header {
@@ -36,6 +39,9 @@
 	.content {
 	    grid-area: e;
 	}
+	.edu {
+	    grid-area: ed;
+	}
 	.footer {
 	   grid-area: c;
 	}
@@ -44,7 +50,8 @@
 <div class="container">
   <div class="header" style="background-color: tomato; text-align: center; color: #fff;">NAME</div>
   <div class="menu" style="background-color: tomato; text-align: center; color: #fff;">HELLO</div>
-  <div class="content" style="background-color: forestgreen; text-align: center; color: #fff;">EXPERIENCE/EDUCATION</div>
+  <div class="content" style="background-color: forestgreen; text-align: center; color: #fff;">EXPERIENCE</div>
+  <div class="edu" style="background-color: forestgreen; text-align: center; color: #fff;">EDUCATION</div>
   <div class="footer" style="background-color: tomato; text-align: center; color: #fff;">CONTACT</div>
 </div>
 
