@@ -11,142 +11,38 @@
     <meta property="og:type" content="article" />
     <meta property="og:url" content="" />
     <meta property="og:image" content="" />
+        
+    <!--twitter card-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@erin_caughey">
+    <meta name="twitter:creator" content="@erin_caughey">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
     
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="js/jquery.min.js"></script>
 
     <style>
-    	body{margin: 0 auto;}
-
-        /*CSS Grid stlyes*/
-        .resume-container {
-        	margin: 5px;
-        }
-        .wrapper{
-            display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            grid-template-rows: 300px 300px 300px 300px 300px 300px 300px;
-            grid-gap: 5px;
-        }
-        .wrapper-inner{
-            display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            grid-template-rows: 100px 100px 100px;            
-            grid-gap: 5px;
-            vertical-align: middle;
-        }
-
-        .wrapper .content-block {
-        	background-color: tomato; 
-        	text-align: center; 
-        	color: #fff; 
-        	font-size: 28px;
-        }
-        .wrapper .content-block-levels {
-        	background-color: slategray; 
-        	text-align: center; 
-        	color: #fff; 
-        	font-size: 28px;
-        }
-        .item1 {
-            grid-column: 1 / 5;
-        }
-        .item2{
-        	grid-column: 5 / 13;
-        }
-        .item3 {
-        	grid-column: 1 / 5;
-            grid-row: 2 / 7;
-        }
-        .item4 {
-            grid-column: 5 / 13;   
-        }
-        .item5{
-        	grid-column: 5 / 13;
-        }
-        .item6{
-        	grid-column: 5 / 13;
-        }
-        .item7{
-        	grid-column: 5 / 13;
-        }
-        .item8{
-        	grid-column: 5 / 13;
-        }
-        .item9{
-        	grid-column: 1 / 5;
-        }
-        .item10{
-        	grid-column: 5 / 13;
-        }
-
-        .second1{
-        	grid-column: 2 / 3;
-        	grid-row: 2 / 3;
-        }
-        .second2{
-        	grid-column: 4 / 12;
-        	grid-row: 2 / 3;
-        }
-        /*CSS Grid stlyes*/
-
-        .temp{font-family: monospace; text-align: center; margin: 5%; }
+        .my-content{margin-top: 20%;font-family: monospace; text-align: center;}
+        .temp{width: 27%; margin: 0 auto; padding: 20px; border: 4px solid tomato; border-radius: 50%;}
     </style>
 
 </head>
 
 <body>
-
-<!--css grid test-->
-<div class="resume-container">
-    <div class="wrapper">
-      <div class="item1 content-block">
-      	<div class="temp">
-            <i class="fa fa-wrench fa-2x" aria-hidden="true"></i>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-12 col-mob-12 my-content"> 
+         <div class="temp">
+            <i class="fa fa-wrench fa-4x" aria-hidden="true"></i>
          </div>
          <h4>Under construction.<br>Building fun things takes time.<br>Check back soon, please.</h4>
-      </div>
-      <div class="item2 content-block">2</div>
-      <div class="item3 content-block">3</div>
-      <div class="item4 content-block">
-      	<div class="wrapper-inner">
-      		<div class="second1 content-block-levels"></div>
-      		<div class="second2 content-block-levels"></div>
-      	</div>
-      </div>
-      <div class="item5 content-block">
-      	<div class="wrapper-inner">
-      		<div class="second1 content-block-levels"></div>
-      		<div class="second2 content-block-levels"></div>
-      	</div>	
-      </div>
-      <div class="item6 content-block">
-      	<div class="wrapper-inner">
-      		<div class="second1 content-block-levels"></div>
-      		<div class="second2 content-block-levels"></div>
-      	</div>
-      </div>
-      <div class="item7 content-block">
-      	<div class="wrapper-inner">
-      		<div class="second1 content-block-levels"></div>
-      		<div class="second2 content-block-levels"></div>
-      	</div>
-      </div>
-      <div class="item8 content-block">
-      	<div class="wrapper-inner">
-      		<div class="second1 content-block-levels"></div>
-      		<div class="second2 content-block-levels"></div>
-      	</div>
-      </div>
-      <div class="item9 content-block">9</div>
-      <div class="item10 content-block">
-      	<div class="wrapper-inner">
-      		<div class="second1 content-block-levels"></div>
-      		<div class="second2 content-block-levels"></div>
-      	</div>
-      </div>
     </div>
+  </div>
 </div>
 
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
