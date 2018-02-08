@@ -18,12 +18,12 @@
         /*.my-content{margin-top: 20%;font-family: monospace; text-align: center;}*/
         .container-grid{
             display: grid;
-            grid-template-columns: auto 1fr auto;
+            grid-template-columns: auto 1fr 1fr 1fr auto;
             grid-template-rows: auto 1fr 1fr auto;
             grid-gap: 1rem;
         }
         .temp{
-            grid-column: 2;
+            grid-column: 3 / 4;
             grid-row: 2;
             align-self: center;
             padding: 20px; 
@@ -35,8 +35,8 @@
             justify-content: center;
         }
 
-        .temp h4{
-            grid-column: 2;
+        .coming-soon h4{
+            grid-column: 2 / 5;
             grid-row: 3;
             justify-content: center;
             font-family: monospace;
@@ -51,7 +51,7 @@
     <div class="temp">
         <h3>e|c</h3>
     </div>
-    <h4>Under construction.<br>Building fun things takes time.<br>Check back soon, please.</h4>
+    <h4 class="coming-soon">Under construction.<br>Building fun things takes time.<br>Check back soon, please.</h4>
 </div>
 
 </body>
