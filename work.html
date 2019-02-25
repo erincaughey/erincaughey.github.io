@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en-us" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Redo simmons</title>
+
+    <style>
+        * {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        a {
+            color: #222;
+            text-decoration: none;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 1rem 0 0;
+        }
+
+        ul>li {
+            padding: 0;
+        }
+
+        /* --------------------------------------------------------*/
+
+        header {
+            background: #6D7578;
+            min-height: 100vh;
+            padding: 5rem 5vw 2rem;
+        }
+
+        header h1 {
+            font-size: 3em;
+            /* font-size: calc(1.8rem + 2.5vw); */
+            margin: 0;
+            line-height: 1.2em;
+            color: #fff;
+        }
+
+        header p {
+            margin: 2rem 0 0;
+            color: #fff;
+        }
+
+        header ul {
+            margin: 0;
+        }
+
+        header a {
+            color: #fff;
+            border-bottom: 1px solid rgba(169, 169, 169, 0.79);
+        }
+
+        @supports (display: grid) {
+            header .header-wrapper {
+                /* autoprefixer: off */
+                width: 66vw;
+                display: grid;
+                margin: auto;
+                grid-template-columns: auto 1fr 1fr 1fr 0.5fr;
+                grid-template-rows: auto 1fr 1fr auto auto;
+                grid-gap: .5rem;
+                /* transform: rotate(-45deg); */
+            }
+            header h1 {
+                /* autoprefixer: off */
+                grid-column: 1 / 6;
+                text-align: left;
+                color: #fff;
+                
+            }
+            header h2 {
+                /* autoprefixer: off */
+                color: tomato;
+                /* -webkit-writing-mode: vertical-rl;
+                writing-mode: vertical-rl; */
+                grid-column: 1 / 6;
+                grid-row: 2 / 3;
+                font-size: 2em;
+            }
+            header p {
+                margin: 0;
+                color: rgba(12, 12, 10, 0.8);
+                text-transform: uppercase;
+                color: #fff;
+            }
+            header a {
+                border-bottom: none;
+                color: rgba(12, 12, 10, 0.8);
+                font-weight: 700;
+                color: #fff;
+            }
+            header .work {
+                /* autoprefixer: off */
+                grid-column: 4 / 6;
+                grid-row: 4 / 6;
+                font-weight: 700;
+                line-height: 1.2;
+                align-self: end;
+            }
+            header .work li {
+                border-top: 5px solid rgba(12, 12, 10, 0.8);
+                text-align: left;
+                padding: 2px 0;
+            }
+            header .work li:last-child {
+                border-bottom: 5px solid rgba(12, 12, 10, 0.8);
+            }
+            header .work p {
+                padding: 2px 0;
+            }
+            header .line {
+                grid-column: 1 / 6;
+                grid-row: 3 / 4;
+                border-bottom: 25px solid #50A6C2;
+                align-self: center;
+            }
+            @media (max-width: 880px) {
+                 header h2 {
+                    font-size: 1.5em;
+                } 
+                header .line {
+                    border-bottom: 20px solid #50A6C2;
+                }
+                header .work {
+                    grid-column: 1 / 6;
+                    grid-row: 6;
+                }
+            }
+            @media (max-width: 645px) {
+
+                header h2 {
+                    grid-column: 1 / 6;
+                    font-size: 1.3em;
+                    margin-bottom: 5px;
+                }
+                
+            }
+            @media (max-width: 542px) {
+                header .header-wrapper {
+                    width: 66vw;
+                    grid-template-columns: auto 1fr 1fr 1fr 0.5fr;
+                    grid-template-rows: auto auto auto auto;
+                }
+                header .work {
+                    grid-column: 1 / 6;
+                    grid-row: 4;
+                }
+            }
+            @media (max-width: 485px) {
+                header h1{
+                    grid-column: 1 / 6;
+                    font-size: 2em;
+                }
+                header h2{
+                    grid-column: 1 / 6;
+                    font-size: 1em;
+                }
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="header-wrapper">
+            <h1>Erin Caughey</h1>
+            <h2>Web design & development</h2>
+            <b class="line"></b>
+            <div class="work">
+                <ul>
+                    <li>
+                        <a href="#">about</a>
+                    </li>
+                    <li>
+                        <a href="#">portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+</body>
+
+
+</html>
