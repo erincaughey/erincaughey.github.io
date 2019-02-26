@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Redo simmons</title>
+    <title>Erin Caughey | Web Developer</title>
 
     <style>
         * {
@@ -68,6 +68,11 @@
         header a {
             color: #fff;
             border-bottom: 1px solid rgba(169, 169, 169, 0.79);
+        }
+
+        .clip{
+            mix-blend-mode: overlay;
+            clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)
         }
 
         @supports (display: grid) {
@@ -184,6 +189,7 @@
 <body>
 
     <header>
+        <img class="clip" width="15%" src="media/snow-me.jpg">
         <div class="header-wrapper">
             <h1>Erin Caughey</h1>
             <h2>Web design & development</h2>
