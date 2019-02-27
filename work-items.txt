@@ -1,0 +1,112 @@
+Unsolved 
+<div>
+    <div>
+        <p><strong>SEASON ONE</strong><br><a target="_blank" href="https://projects.jsonline.com/topics/unsolved-season-one/">jsonline.com/unsolved-season-one</a></p>
+        <p><strong>SEASON TWO</strong>&nbsp;<br><a target="_blank" href="https://projects.jsonline.com/topics/unsolved/index.html">jsonline.com/unsolved</a></p>
+        <p><strong>SEASON THREE</strong><a target="_blank" href="https://projects.jsonline.com/topics/unsolved/season-three/the-devil-you-know.html">jsonline.com/unsolved</a></p>
+        <p><strong>AWARDS</strong>:&nbsp;<a target="_blank" href="http://www.rtdna.org/content/2016_national_edward_r_murrow_award_winners">National Edward R. Murrow</a>,&nbsp;<a target="_blank" href="http://asne.org/content.asp?contentid=431">ASNE</a>,&nbsp;<a target="_blank" href="http://www.spj.org/sdxa15.asp">SPJ Sigma Delta Chi</a>,&nbsp;<a target="_blank" href="http://www.headlinerawards.org/wp-content/uploads/2016/04/2016headlinerwinners.pdf">National Headliner</a>&nbsp;and <a target="_blank" href="https://featuresjournalism.org/sfj-28th-annual-award-winners-by-category/">SFJ Excellence-in-Features</a></p>
+        <p><strong>ROLE</strong>: Project management, front-end web development for both seasons</p>
+    </div>
+</div>
+
+Lessons Lost: https://projects.jsonline.com/news/2018/10/5/high-student-turnover-in-milwaukee-stalls-achievement-despite-reforms.html
+
+Milwaukee 50: https://projects.jsonline.com/entertainment/2018/10/21/milwaukee-50-checklist.html
+
+Dairyland in Distress 
+https://www.jsonline.com/in-depth/news/special-reports/dairy-crisis/2019/02/21/wisconsin-dairy-farms-failing-milk-prices-fall/2540796002/
+
+Watershed Moment 
+<div>
+    <div>
+        <p >Contributed to Dan Egan's reporting on&nbsp; invasive species in the Great Lakes and the steps that could be taken to protect the world’s largest freshwater system.</p>
+        <p><strong>AWARDS</strong>:&nbsp;<a target="_blank" href="https://journalism.columbia.edu/2016-dupont-winners">Alfred I. duPont-Columbia University Award</a></p>
+        <p><strong>ROLE</strong>: Produced series and contributed research, video and photos</p>
+    </div>
+</div>
+
+
+Mexico Blackouts
+<div>
+    <div>
+        <p>A database of victim reports from people who had troubling – in some cases tragic – experiences while drinking alcohol in Mexico.</p>
+        <p><strong>ROLE:</strong> Database design contributions and upkeep</p>
+    </div>
+</div>
+
+
+50-year Ache
+<div>
+    <div>
+        <p>A year long series on the progress of Milwaukee since the 1967 open housing marches.&nbsp;</p>
+        <p><strong>ROLE:</strong> Front-end development</p>
+    </div>
+</div>
+
+
+Beer Near
+<div>
+    <div>
+        <p>An interactive guide to every Wisconsin brewery and brew pub.&nbsp;</p>
+        <p><strong>ROLE:</strong> Front-end development and database upkeep</p>
+    </div>
+</div>
+
+
+Oil and Water
+<div>
+    <div>
+        <p>A look at the two 64-year-old pipes at the bottom of the Straits of Mackinac, and what it could mean for Wisconsin if they are shut down.</p>
+        <p><strong>ROLE:</strong>&nbsp;Storyboarding and design of introduction graphic, front-end design for series</p>
+    </div>
+</div>
+
+What Happened to us?
+<div>
+    <div>
+        <p>Examining Milwaukee's persistent problems through the eyes of one class</p>
+        <p><strong>ROLE:</strong>&nbsp;Introduction development contributions,&nbsp;series design and production</p>
+    </div>
+</div>
+
+
+Bradley Blueprints 
+<div>
+    <div>
+        <p>Analysis of leaked documents from the Bradley Foundation.&nbsp;</p>
+        <p><strong>ROLE: </strong>Series design and production</p>
+    </div>
+</div>
+
+The price of being wrong
+<div>
+    <div>
+        <p>Newborn screening saves babies, but lives can be shattered when state labs ignore science and common sense.</p>
+        <p><strong>ROLE</strong>:&nbsp;Front-end web development and story production</p>
+    </div>
+</div>
+
+
+Land and Space Developement database
+<div>
+    <div>
+        <p>Land &amp; Space Development Database follows newly completed and ongoing commercial projects throughout the Milwaukee area.&nbsp;</p>
+        <p><strong>ROLE</strong>: Design and front-end development contributions&nbsp;</p>
+    </div>
+</div>
+
+Congressional Travel 
+<div>
+    <div>
+        <p>Analysis and mapping of the 125 trips Wisconsin delegates took from 2008-2014.&nbsp;</p>
+        <p><strong>ROLE:</strong> Co-reporting, <a target="_blank" href="http://archive.jsonline.com/watchdog/watchdogreports/interactive-map-where-in-the-world-is-the-wisconsin-delegation-265760811.html/">interactive map development</a></p>
+    </div>
+</div>
+
+Uncharted Waters
+<div>
+    <div>
+        <p><span style="font-size:12px">&nbsp;</span><a target="_blank" href="http://www.jsonline.com/watchdog/rainy-spring-cold-winter-help-buoy-great-lakes-levels-b99309434z1-267082221.html">story</a><span style="font-size:12px">&nbsp;|&nbsp;</span><a target="_blank" href="http://www.jsonline.com/multimedia/video/?bcpid=13960334001&amp;bctid=3674557621001">video</a></p>
+        <p><strong>ROLE</strong>: Reporter</p>
+    </div>
+</div>
