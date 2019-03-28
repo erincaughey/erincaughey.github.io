@@ -48,8 +48,7 @@
             padding: 5rem 5vw 2rem;
         }
 
-        header h1 {
-            font-size: 3em;
+        .name-title h1 {
             /* font-size: calc(1.8rem + 2.5vw); */
             margin: 0;
             line-height: 1.2em;
@@ -72,7 +71,9 @@
 
         .clip{
             mix-blend-mode: overlay;
-            clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%)
+            clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+            box-shadow: 2px 2px 2px #fff;
+            width: 20%;
         }
 
         @supports (display: grid) {
@@ -81,25 +82,33 @@
                 width: 66vw;
                 display: grid;
                 margin: auto;
-                grid-template-columns: auto 1fr 1fr 1fr 0.5fr;
+                grid-template-columns: 1fr 1fr 1fr 1fr 0.5fr;
                 grid-template-rows: auto 1fr 1fr auto auto;
                 grid-gap: .5rem;
                 /* transform: rotate(-45deg); */
             }
-            header h1 {
+            header .clip {
                 /* autoprefixer: off */
                 grid-column: 1 / 6;
+                grid-row: 2 / 3;
+                text-align: left;
+            }
+            header .name-title{
+                grid-column: 2 / 6;
+                grid-row: 2 / 3;
+                align-self: center;
+            }
+            header h1 {
+                /* grid-column: 1 / 6;
+                grid-row: 2 / 3; */
                 text-align: left;
                 color: #fff;
                 
             }
             header h2 {
-                /* autoprefixer: off */
                 color: tomato;
-                /* -webkit-writing-mode: vertical-rl;
-                writing-mode: vertical-rl; */
-                grid-column: 1 / 6;
-                grid-row: 2 / 3;
+                /* grid-column: 1 / 6;
+                grid-row: 3 / 3; */
                 font-size: 2em;
             }
             header p {
@@ -117,7 +126,7 @@
             header .work {
                 /* autoprefixer: off */
                 grid-column: 4 / 6;
-                grid-row: 4 / 6;
+                grid-row: 1 / 6;
                 font-weight: 700;
                 line-height: 1.2;
                 align-self: end;
@@ -137,9 +146,17 @@
                 grid-column: 1 / 6;
                 grid-row: 3 / 4;
                 border-bottom: 25px solid #50A6C2;
-                align-self: center;
+                align-self: baseline;
             }
             @media (max-width: 880px) {
+                header .name-title{
+                    grid-column: 3 / 6;
+                    grid-row: 2 / 3;
+                    align-self: center;
+                }
+                .clip{
+                    width: 40%;
+                }
                  header h2 {
                     font-size: 1.5em;
                 } 
@@ -148,17 +165,25 @@
                 }
                 header .work {
                     grid-column: 1 / 6;
-                    grid-row: 6;
+                    grid-row: 3;
+                }
+            }
+            @media (max-width: 718px) {
+                .name-title h1 {
+                    font-size: 1.6 em;
                 }
             }
             @media (max-width: 645px) {
 
                 header h2 {
-                    grid-column: 1 / 6;
+                    /* grid-column: 1 / 6; */
                     font-size: 1.3em;
                     margin-bottom: 5px;
                 }
-                
+                header .name-title{
+                    align-self: center;
+                }
+
             }
             @media (max-width: 542px) {
                 header .header-wrapper {
@@ -170,15 +195,32 @@
                     grid-column: 1 / 6;
                     grid-row: 4;
                 }
+                /* 
+                .name-title h1{
+                    font-size: 1.4 em;
+                }
+                .name-title h2{
+                    font-size: 1.2 em;
+                } */
+                .clip{
+                    width: 30%;
+                    padding-right: 2%;
+                }
             }
             @media (max-width: 485px) {
-                header h1{
-                    grid-column: 1 / 6;
-                    font-size: 2em;
+                header .name-title{
+                    grid-column: 3 / 6;
+                    align-self: center;
                 }
-                header h2{
-                    grid-column: 1 / 6;
-                    font-size: 1em;
+                .name-title h1{
+                    font-size: 1.4 em;
+                }
+                .name-title h2{
+                    font-size: 1 em;
+                }
+                .clip{
+                    width: 30%;
+                    padding-right: 2%;
                 }
             }
         }
@@ -189,10 +231,12 @@
 <body>
 
     <header>
-        <img class="clip" width="15%" src="media/snow-me.jpg">
         <div class="header-wrapper">
-            <h1>Erin Caughey</h1>
-            <h2>Web design & development</h2>
+            <img class="clip" src="media/snow-me.jpg">
+            <div class="name-title">
+                <h1>Erin Caughey</h1>
+                <h2>Web design & development</h2>
+            </div>
             <b class="line"></b>
             <div class="work">
                 <p>Work:</p>
