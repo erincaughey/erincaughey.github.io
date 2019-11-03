@@ -1,0 +1,14 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../src/App.svelte",
+    "../src/Work.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\nimport { onMount } from 'svelte';\nimport Work from './Work.svelte';\n\n\tonMount(async () => {\n\t\tconst res = await fetch(`data.json`);\n\t\tcategories = await res.json();\n\t});\n\t\n</script>\n\n<style>\n\th1 {\n\t\tcolor: purple;\n\t}\n</style>\n\n<h1>Hello {name}!</h1>\n",
+    "<script>\nexport let image;\nexport let headline;\nexport let text;\nexport let role;\nexport let awards;\nexport let link;\n</script>\n\n<style>\n.project-item{\n    border-bottom: 1px solid #ccc;\n    padding: 10px;\n    display: inline;\n}\n.project-item img{\n    display: inline;\n}\n.project-item .item-group{\n    display: inline;\n}\n.project-item h4{\n    color: #222;\n}\n.project-item .description{\n    font-size: 14px;\n    color: #999;\n}\n.project-item .role, .project-item .awards{\n    font-family: 'Anonymous Pro', monospace;\n    font-size: 12px;\n}\n</style>\n\n<div class=\"project-item\">\n    <img class=\"clip\" src=\"{image}\" alt=\"{text}\">\n    <div class=\"item-group\">\n        <h4><a class=\"all-links\" href=\"{link}\">{headline}</a></h4>\n        <div class=\"description\"><strong>About:</strong> {text}</div>\n        <div class=\"role\"><strong>Role:</strong> {role}</div>\n        <div class=\"awards\"><strong>Awards:</strong> {awards}</div>\n    </div>\n</div>"
+  ],
+  "names": [],
+  "mappings": "AAYC,EAAE,cAAC,CAAC,AACH,KAAK,CAAE,MAAM,AACd,CAAC;ACJF,2BAAa,CAAC,AACV,aAAa,CAAE,GAAG,CAAC,KAAK,CAAC,IAAI,CAC7B,OAAO,CAAE,IAAI,CACb,OAAO,CAAE,MAAM,AACnB,CAAC,AACD,2BAAa,CAAC,iBAAG,CAAC,AACd,OAAO,CAAE,MAAM,AACnB,CAAC,AACD,2BAAa,CAAC,yBAAW,CAAC,AACtB,OAAO,CAAE,MAAM,AACnB,CAAC,AACD,2BAAa,CAAC,gBAAE,CAAC,AACb,KAAK,CAAE,IAAI,AACf,CAAC,AACD,2BAAa,CAAC,0BAAY,CAAC,AACvB,SAAS,CAAE,IAAI,CACf,KAAK,CAAE,IAAI,AACf,CAAC,AACD,2BAAa,CAAC,mBAAK,CAAE,2BAAa,CAAC,qBAAO,CAAC,AACvC,WAAW,CAAE,eAAe,CAAC,CAAC,SAAS,CACvC,SAAS,CAAE,IAAI,AACnB,CAAC"
+}

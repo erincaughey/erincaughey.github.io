@@ -1,0 +1,26 @@
+[
+    {
+        "image": "media/nell-sleep.jpg",
+        "headline": "This is one headline",
+        "text": "Lorem ipsum dolor amet ramps hoodie kitsch venmo godard activated charcoal fixie. Scenester hammock duis tumblr. Cronut in next level, deep v hammock mlkshk fashion axe offal chillwave fugiat organic.",
+        "role": "design",
+        "awards": "duPont",
+        "link": "https://erincaughey.github.io/"
+    },
+    {
+        "image": "media/nell-play.jpg",
+        "headline": "This is another headline",
+        "text": "Lorem ipsum dolor amet ramps hoodie kitsch venmo godard activated charcoal fixie. Scenester hammock duis tumblr. Cronut in next level, deep v hammock mlkshk fashion axe offal chillwave fugiat organic.",
+        "role": "developement",
+        "awards": "SPJ, Headliner",
+        "link": "https://erincaughey.github.io/"
+    },
+    {
+        "image": "media/nell-pose.jpg",
+        "headline": "This is a brand new headline",
+        "text": "Lorem ipsum dolor amet ramps hoodie kitsch venmo godard activated charcoal fixie. Scenester hammock duis tumblr. Cronut in next level, deep v hammock mlkshk fashion axe offal chillwave fugiat organic.",
+        "role": "developement, project management",
+        "awards": "University of Florida Data Journalism OJA",
+        "link": "https://erincaughey.github.io/"
+    }
+]
