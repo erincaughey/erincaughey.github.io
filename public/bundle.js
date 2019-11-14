@@ -355,28 +355,28 @@ var app = (function () {
     			strong2.textContent = "Awards:";
     			t12 = space();
     			t13 = text(ctx.awards);
-    			attr_dev(img, "class", "clip svelte-c4kfqd");
+    			attr_dev(img, "class", "clip svelte-fbtv66");
     			attr_dev(img, "src", ctx.image);
     			attr_dev(img, "alt", ctx.text);
-    			add_location(img, file, 35, 4, 579);
+    			add_location(img, file, 42, 4, 816);
     			attr_dev(a, "class", "all-links");
     			attr_dev(a, "href", ctx.link);
-    			add_location(a, file, 37, 12, 666);
-    			attr_dev(h4, "class", "svelte-c4kfqd");
-    			add_location(h4, file, 37, 8, 662);
-    			add_location(strong0, file, 38, 33, 754);
-    			attr_dev(div0, "class", "description svelte-c4kfqd");
-    			add_location(div0, file, 38, 8, 729);
-    			add_location(strong1, file, 39, 26, 817);
-    			attr_dev(div1, "class", "role svelte-c4kfqd");
-    			add_location(div1, file, 39, 8, 799);
-    			add_location(strong2, file, 40, 28, 881);
-    			attr_dev(div2, "class", "awards svelte-c4kfqd");
-    			add_location(div2, file, 40, 8, 861);
-    			attr_dev(div3, "class", "item-group svelte-c4kfqd");
-    			add_location(div3, file, 36, 4, 629);
-    			attr_dev(div4, "class", "project-item svelte-c4kfqd");
-    			add_location(div4, file, 34, 0, 548);
+    			add_location(a, file, 44, 12, 903);
+    			attr_dev(h4, "class", "svelte-fbtv66");
+    			add_location(h4, file, 44, 8, 899);
+    			add_location(strong0, file, 45, 33, 991);
+    			attr_dev(div0, "class", "description svelte-fbtv66");
+    			add_location(div0, file, 45, 8, 966);
+    			add_location(strong1, file, 46, 26, 1054);
+    			attr_dev(div1, "class", "role svelte-fbtv66");
+    			add_location(div1, file, 46, 8, 1036);
+    			add_location(strong2, file, 47, 28, 1118);
+    			attr_dev(div2, "class", "awards svelte-fbtv66");
+    			add_location(div2, file, 47, 8, 1098);
+    			attr_dev(div3, "class", "item-group svelte-fbtv66");
+    			add_location(div3, file, 43, 4, 866);
+    			attr_dev(div4, "class", "project-item svelte-fbtv66");
+    			add_location(div4, file, 41, 0, 785);
     		},
 
     		l: function claim(nodes) {

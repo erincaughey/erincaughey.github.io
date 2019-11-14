@@ -6,222 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Erin Caughey | Web Developer & Designer</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400,500,600|Tajawal:300,400,500,700&display=swap" rel="stylesheet">
+
+    <link rel='stylesheet' href='global.css'>
+
     <style>
-        * {
-            -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+        body{
+            background: #f4f4f4;
+        }
+        h1 {
+            font-size: 2em;
+            font-family: 'Tajawal', sans-serif; 
+            font-weight: 400;
+        }
+        h2 {
+            font-size: 1.7em;
+            font-family: 'Tajawal', sans-serif; 
         }
 
-        body {
-            margin: 0;
-            font-family: sans-serif;
+        .blinking{
+            animation:blinkingText 1.5s infinite;
         }
-
-        h1,
-        h2,
-        h3 {
-            margin: 0;
-            text-transform: uppercase;
-        }
-
-        a {
-            color: #222;
-            text-decoration: none;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-            margin: 1rem 0 0;
-        }
-
-        ul>li {
-            padding: 0;
-        }
-
-        /* --------------------------------------------------------*/
-
-        header {
-            background: #6D7578;
-            min-height: 100vh;
-            padding: 5rem 5vw 2rem;
-        }
-
-        .name-title h1 {
-            /* font-size: calc(1.8rem + 2.5vw); */
-            margin: 0;
-            line-height: 1.2em;
-            color: #fff;
-        }
-
-        header p {
-            margin: 2rem 0 0;
-            color: #fff;
-        }
-
-        header ul {
-            margin: 0;
-        }
-
-        header a {
-            color: #fff;
-            border-bottom: 1px solid rgba(169, 169, 169, 0.79);
-        }
-
-        .clip{
-            mix-blend-mode: overlay;
-            clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
-            box-shadow: 2px 2px 2px #fff;
-            width: 20%;
-        }
-
-        @supports (display: grid) {
-            header .header-wrapper {
-                /* autoprefixer: off */
-                width: 66vw;
-                display: grid;
-                margin: auto;
-                grid-template-columns: 1fr 1fr 1fr 1fr 0.5fr;
-                grid-template-rows: auto 1fr 1fr auto auto;
-                grid-gap: .5rem;
-                /* transform: rotate(-45deg); */
-            }
-            header .clip {
-                /* autoprefixer: off */
-                grid-column: 1 / 6;
-                grid-row: 2 / 3;
-                text-align: left;
-            }
-            header .name-title{
-                grid-column: 2 / 6;
-                grid-row: 2 / 3;
-                align-self: center;
-            }
-            header h1 {
-                /* grid-column: 1 / 6;
-                grid-row: 2 / 3; */
-                text-align: left;
-                color: #fff;
-                
-            }
-            header h2 {
-                color: tomato;
-                /* grid-column: 1 / 6;
-                grid-row: 3 / 3; */
-                font-size: 2em;
-            }
-            header p {
-                margin: 0;
-                color: rgba(12, 12, 10, 0.8);
-                text-transform: uppercase;
-                color: #fff;
-            }
-            header a {
-                border-bottom: none;
-                color: rgba(12, 12, 10, 0.8);
-                font-weight: 700;
-                color: #fff;
-            }
-            header .work {
-                /* autoprefixer: off */
-                grid-column: 4 / 6;
-                grid-row: 1 / 6;
-                font-weight: 700;
-                line-height: 1.2;
-                align-self: end;
-            }
-            header .work li {
-                border-top: 5px solid rgba(12, 12, 10, 0.8);
-                text-align: left;
-                padding: 2px 0;
-            }
-            header .work li:last-child {
-                border-bottom: 5px solid rgba(12, 12, 10, 0.8);
-            }
-            header .work p {
-                padding: 2px 0;
-            }
-            header .line {
-                grid-column: 1 / 6;
-                grid-row: 3 / 4;
-                border-bottom: 25px solid #50A6C2;
-                align-self: baseline;
-            }
-            @media (max-width: 880px) {
-                header .name-title{
-                    grid-column: 3 / 6;
-                    grid-row: 2 / 3;
-                    align-self: center;
-                }
-                .clip{
-                    width: 40%;
-                }
-                 header h2 {
-                    font-size: 1.5em;
-                } 
-                header .line {
-                    border-bottom: 20px solid #50A6C2;
-                }
-                header .work {
-                    grid-column: 1 / 6;
-                    grid-row: 3;
-                }
-            }
-            @media (max-width: 718px) {
-                .name-title h1 {
-                    font-size: 1.6 em;
-                }
-            }
-            @media (max-width: 645px) {
-
-                header h2 {
-                    /* grid-column: 1 / 6; */
-                    font-size: 1.3em;
-                    margin-bottom: 5px;
-                }
-                header .name-title{
-                    align-self: center;
-                }
-
-            }
-            @media (max-width: 542px) {
-                header .header-wrapper {
-                    width: 66vw;
-                    grid-template-columns: auto 1fr 1fr 1fr 0.5fr;
-                    grid-template-rows: auto auto auto auto;
-                }
-                header .work {
-                    grid-column: 1 / 6;
-                    grid-row: 4;
-                }
-                /* 
-                .name-title h1{
-                    font-size: 1.4 em;
-                }
-                .name-title h2{
-                    font-size: 1.2 em;
-                } */
-                .clip{
-                    width: 30%;
-                    padding-right: 2%;
-                }
-            }
-            @media (max-width: 485px) {
-                header .name-title{
-                    grid-column: 3 / 6;
-                    align-self: center;
-                }
-                .name-title h1{
-                    font-size: 1.4 em;
-                }
-                .name-title h2{
-                    font-size: 1 em;
-                }
-                .clip{
-                    width: 30%;
-                    padding-right: 2%;
-                }
-            }
+        @keyframes blinkingText{
+            0%{ color: tomato; }
+            10%{ color: tomato; }
+            25%{ color: ffe2dd; }
+            50%{ color: transparent; }
+            75%{ color:transparent; }
+            90%{ color: tomato; }
+            100%{ color: tomato; }
         }
     </style>
 
@@ -233,21 +46,21 @@
         <div class="header-wrapper">
             <img class="clip" src="media/snow-me.jpg">
             <div class="name-title">
-                <h1>Erin Caughey</h1>
-                <h2>Web design & development</h2>
+                <h1>Erin <span class="blinking">|</span> Caughey</h1>
+                <h2>Web design & development
+                </h2>
             </div>
             <b class="line"></b>
             <div class="work">
-                <p>Work:</p>
                 <ul>
                     <li>
-                        <a href="#">about</a>
+                        <a class="all-links" href="#">about</a>
                     </li>
                     <li>
-                        <a href="#">portfolio</a>
+                        <a class="all-links href="#">work</a>
                     </li>
                     <li>
-                        <a href="#">contact</a>
+                        <a class="all-links href="mailto:erinrcaughey@gmail.com">contact</a>
                     </li>
                 </ul>
             </div>

@@ -11,24 +11,31 @@ export let link;
 .project-item{
     border-bottom: 1px solid #ccc;
     padding: 10px;
-    display: inline;
+    /* display: inline-block; */
 }
 .project-item img{
-    display: inline;
+    /* display: inline-block; */
+    margin: 0 20px;
+    width: 15vw;
 }
 .project-item .item-group{
-    display: inline;
+    /* display: inline-block; */
+    width: 60vw;
 }
-.project-item h4{
+.item-group h4{
+    font-family: 'Tajawal', sans-serif;
     color: #222;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
-.project-item .description{
+.item-group .description{
+    font-family: 'Barlow Semi Condensed', sans-serif;
     font-size: 14px;
     color: #999;
 }
-.project-item .role, .project-item .awards{
-    font-family: 'Anonymous Pro', monospace;
-    font-size: 12px;
+.item-group .role, .item-group .awards{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
 }
 </style>
 
