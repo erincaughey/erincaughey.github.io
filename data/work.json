@@ -9,6 +9,15 @@
     "link": "https://observablehq.com/@erincaughey"
   },
   {
+    "images": "media/deer-accidents.png",
+    "headline": "Deer accidents",
+    "text": "Annual analysis and data graphics on deer crashes across the state of Wisconsin.",
+    "role": "Analysis and reporting.",
+    "tools": "R, Excel, Mapbox and Infogram",
+    "awards": "",
+    "link": "https://www.jsonline.com/story/money/2021/11/04/wisconsin-deer-crashes-you-could-hit-one-just-anywhere/8473214002/"
+  },
+  {
     "images": "media/calculator.png",
     "headline": "Calculate how you can save with a 529 account",
     "text": "Calculator to go with solutions based series on 529 college savings plans.",
@@ -40,7 +49,7 @@
     "headline": "Electrical fires hit Milwaukee's Black renters hardest. Nobody is held accountable.",
     "text": "An investigation of electrical fires in Milwaukee's poorest neighborhoods.",
     "role": "Series design, graphics and project management.",
-    "tools": "Svelte",
+    "tools": "Svelte and Illustrator",
     "awards": "",
     "link": "https://www.jsonline.com/in-depth/news/investigations/reports/2021/08/25/electrical-fires-milwaukee-pose-higher-risk-poor-black-renters/8061243002/"
   },
@@ -65,7 +74,7 @@
   {
     "images": "media/fpc.png",
     "headline": "Abuse of Trust",
-    "text": "An investigation into conflicts of interest in Milwaukee's Fire and Police Commission.",
+    "text": "An investigation into conflicts of interest in Milwaukee's Fire and Police Commission. Eppy Award (2021) for Best innovation project on a website.",
     "role": "Series design, network graphics, social sharing graphics and project management.",
     "tools": "D3 and Illustrator",
     "awards": "",
@@ -128,7 +137,7 @@
   {
     "images": "media/dairy.png",
     "headline": "Dairyland in Distress",
-    "text": "A collection of a year's worth of reporting on Wisconsin’s dairy industry.",
+    "text": "A collection of a year's worth of reporting on Wisconsin’s dairy industry. SABEW 2019 Best in Business reporting award.",
     "role": "Series design, development, project management and production. Individual data graphic contributions.",
     "tools": "Svelte, D3 and Illustrator",
     "awards": "<a href=\"https://sabew.org/2019-best-in-business-honorees/\">SABEW 2019 Innovation</a>",
@@ -137,7 +146,7 @@
   {
     "images": "media/lessons-lost.png",
     "headline": "Lessons Lost",
-    "text": "Tracking the impact of student mobility on performance.",
+    "text": "Tracking the impact of student mobility on performance. Online News Association 2019 The University of Florida Award for Investigative Data Journalism.",
     "role": "Series design, graphics and project management.",
     "tools": "D3",
     "awards": "<a href=\"https://awards.journalists.org/entries/lessons-lost/\">2019 The University of Florida Award for Investigative Data Journalism</a>, Online Journalism Awards",
