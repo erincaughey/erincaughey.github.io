@@ -9,6 +9,24 @@
     "link": "https://observablehq.com/@erincaughey"
   },
   {
+    "images": "media/results.png",
+    "headline": "Election results",
+    "text": "Milwaukee's local election results page management for Wisconsin's 2022 spring elections.",
+    "role": "Connecting backend data servers to frontend design and monitoring/calling races on election night.",
+    "tools": "Digital Ocean, Node and Python",
+    "awards": "",
+    "link": "https://projects.jsonline.com/topics/election/2022/2/15/wisconsin-spring-primary-election-results.html"
+  },
+  {
+    "images": "media/voter-guide-2.png",
+    "headline": "Voter Guide",
+    "text": "Frequently Asked Questions and information about voting in the Wisconsin elections.",
+    "role": "Page design, development, map graphic, social sharing graphics and FAQ content updating.",
+    "tools": "Svelte, Datawrapper and Illustrator",
+    "awards": "",
+    "link": "https://projects.jsonline.com/topics/election/voter-guide/register-to-vote-early-voting-request-ballot-days-until-election-day.html"
+  },
+  {
     "images": "media/deer-accidents.png",
     "headline": "Deer accidents",
     "text": "Annual analysis and data graphics on deer crashes across the state of Wisconsin.",
@@ -49,7 +67,7 @@
     "headline": "Electrical fires hit Milwaukee's Black renters hardest. Nobody is held accountable.",
     "text": "An investigation of electrical fires in Milwaukee's poorest neighborhoods.",
     "role": "Series design, graphics and project management.",
-    "tools": "Svelte and Illustrator",
+    "tools": "Svelte, Make and Illustrator",
     "awards": "",
     "link": "https://www.jsonline.com/in-depth/news/investigations/reports/2021/08/25/electrical-fires-milwaukee-pose-higher-risk-poor-black-renters/8061243002/"
   },
@@ -67,7 +85,7 @@
     "headline": "Track COVID-19 and the vaccine in Wisconsin",
     "text": "An evolving dashboard of daily cases, deaths, vaccines and more.",
     "role": "Page design, graphic and data updates.",
-    "tools": "Svelte and D3",
+    "tools": "Svelte, D3, Make, Python, Google Sheets to S3",
     "awards": "",
     "link": "https://projects.jsonline.com/topics/coronavirus/tracking/covid-19-cases-testing-and-deaths-in-wisconsin.html"
   },
@@ -88,15 +106,6 @@
     "tools": "R and Illustrator",
     "awards": "",
     "link": "https://www.jsonline.com/in-depth/news/investigations/2020/08/19/parking-garage-safety-ignored-decades-hospitals-workers-say/3367612001/"
-  },
-  {
-    "images": "media/voter-guide.png",
-    "headline": "Voter Guide",
-    "text": "Frequently Asked Questions and information about voting in the 2020 general election.",
-    "role": "Page design, development, map graphic, social sharing graphics and FAQ content updating.",
-    "tools": "Svelte, Datawrapper and Illustrator.",
-    "awards": "",
-    "link": "https://projects.jsonline.com/topics/election/voter-guide/register-to-vote-early-voting-request-ballot-days-until-election-day.html"
   },
   {
     "images": "media/one-year.png",
