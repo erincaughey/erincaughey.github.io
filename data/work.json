@@ -9,6 +9,15 @@
     "link": "https://observablehq.com/@erincaughey"
   },
   {
+    "images": "media/home-styles.png",
+    "headline": "Explore Milwaukee's history through its many home styles",
+    "text": "A historical analysis and visualization of the types of homes that built Milwaukee.",
+    "role": "Page design, development and project management.",
+    "tools": "R, Mapbox, and D3",
+    "awards": "",
+    "link": "https://www.jsonline.com/in-depth/news/local/2022/03/31/milwaukee-home-styles-architecture-reveal-citys-history-bungalows-craftsman-duplex/6835671001/"
+  },
+  {
     "images": "media/results.png",
     "headline": "Election results",
     "text": "Milwaukee's local election results page management for Wisconsin's 2022 spring elections.",
@@ -70,6 +79,15 @@
     "tools": "Svelte, Make and Illustrator",
     "awards": "",
     "link": "https://www.jsonline.com/in-depth/news/investigations/reports/2021/08/25/electrical-fires-milwaukee-pose-higher-risk-poor-black-renters/8061243002/"
+  },
+  {
+    "images": "media/ron-johnson.png",
+    "headline": "The Editorial Board responds to Senator Ron Johnson",
+    "text": "Senator Johnson responded to the Editorial Boaord's call for him to resign. The board added some more context.",
+    "role": "Page design.",
+    "tools": "",
+    "awards": "",
+    "link": "https://www.jsonline.com/in-depth/news/solutions/2021/01/19/sen-ron-johnson-calls-editorial-unhinged-editorial-board-responds/4204754001/"
   },
   {
     "images": "media/covid-timeline.jpeg",
@@ -146,7 +164,7 @@
   {
     "images": "media/dairy.png",
     "headline": "Dairyland in Distress",
-    "text": "A collection of a year's worth of reporting on Wisconsin’s dairy industry. SABEW 2019 Best in Business reporting award.",
+    "text": "A collection of a year's worth of reporting on Wisconsin‚Äôs dairy industry. SABEW 2019 Best in Business reporting award.",
     "role": "Series design, development, project management and production. Individual data graphic contributions.",
     "tools": "Svelte, D3 and Illustrator",
     "awards": "<a href=\"https://sabew.org/2019-best-in-business-honorees/\">SABEW 2019 Innovation</a>",
