@@ -9,6 +9,42 @@
     "link": "https://observablehq.com/@erincaughey"
   },
   {
+    "images": "media/lightning.png",
+    "headline": "Why lightning is rare but dangerous in the Bay Area",
+    "text": "Launching The Chronicle's Weather Wonks team with an analysis on lightning in the Bay Area.",
+    "role": "Development and design",
+    "tools": "React and D3",
+    "awards": "",
+    "link": "https://www.sfchronicle.com/projects/2022/weather-lightning/"
+  },
+  {
+    "images": "media/drought.png",
+    "headline": "Drought Tracker",
+    "text": "Updates added new map data to The Chronicle's database tracking Bay Area reservoir levels.",
+    "role": "Development and design",
+    "tools": "React and Mapbox",
+    "awards": "",
+    "link": "https://www.sfchronicle.com/projects/drought-map-water-restrictions-bay-area/"
+  },
+  {
+    "images": "media/noodles.png",
+    "headline": "Build a random noodle bowl",
+    "text": "Randomly generate your toppings in a bowl of noodles from a S.F. Hong Kong style noodle restaurant.",
+    "role": "Development collaboration",
+    "tools": "React",
+    "awards": "",
+    "link": "https://www.sfchronicle.com/food/restaurants/article/san-francisco-noodles-17277256.php"
+  },
+  {
+    "images": "media/sfnext.png",
+    "headline": "SFNext data dashboard",
+    "text": "A collection data on topics concerning San Francisco issues as the city works it's way out of the pandemic.",
+    "role": "Development and design",
+    "tools": "React and D3",
+    "awards": "",
+    "link": "https://www.sfchronicle.com/projects/2022/fixing-san-francisco-problems/sfnext-about-the-project"
+  },
+  {
     "images": "media/home-styles.png",
     "headline": "Explore Milwaukee's history through its many home styles",
     "text": "A historical analysis and visualization of the types of homes that built Milwaukee.",
@@ -164,7 +200,7 @@
   {
     "images": "media/dairy.png",
     "headline": "Dairyland in Distress",
-    "text": "A collection of a year's worth of reporting on Wisconsin‚Äôs dairy industry. SABEW 2019 Best in Business reporting award.",
+    "text": "A collection of a year's worth of reporting on Wisconsin’s dairy industry. SABEW 2019 Best in Business reporting award.",
     "role": "Series design, development, project management and production. Individual data graphic contributions.",
     "tools": "Svelte, D3 and Illustrator",
     "awards": "<a href=\"https://sabew.org/2019-best-in-business-honorees/\">SABEW 2019 Innovation</a>",
