@@ -9,6 +9,15 @@
     "link": "https://observablehq.com/@erincaughey"
   },
   {
+    "images": "media/transit-trails.png",
+    "headline": "Car-free hiking: 8 of the best Bay Area trails near public transportation",
+    "text": "In tandem with a more in-depth analysis of Bay Area AllTrails data, this story finds some of the most transit accessible trails across the region.",
+    "role": "Reporting and development",
+    "tools": "React and Maplibre",
+    "awards": "",
+    "link": "https://www.sfchronicle.com/projects/2022/bay-area-hiking-trails-near-public-transportation/"
+  },
+  {
     "images": "media/lightning.png",
     "headline": "Why lightning is rare but dangerous in the Bay Area",
     "text": "Launching The Chronicle's Weather Wonks team with an analysis on lightning in the Bay Area.",
@@ -20,7 +29,7 @@
   {
     "images": "media/drought.png",
     "headline": "Drought Tracker",
-    "text": "Updates added new map data to The Chronicle's database tracking Bay Area reservoir levels.",
+    "text": "New updates adding map data to The Chronicle's database tracking Bay Area reservoir levels.",
     "role": "Development and design",
     "tools": "React and Mapbox",
     "awards": "",
@@ -45,6 +54,15 @@
     "link": "https://www.sfchronicle.com/projects/2022/fixing-san-francisco-problems/sfnext-about-the-project"
   },
   {
+    "images": "media/small-multiples.png",
+    "headline": "Small multiples graphic tool",
+    "text": "A tool run through Google Sheets and React templates to help reporters easily build D3 small multiple graphics to embed in stories.",
+    "role": "Development",
+    "tools": "React and D3",
+    "awards": "",
+    "link": "https://www.sfchronicle.com/eastbay/article/east-bay-homeless-17179271.php"
+  },
+  {
     "images": "media/home-styles.png",
     "headline": "Explore Milwaukee's history through its many home styles",
     "text": "A historical analysis and visualization of the types of homes that built Milwaukee.",
@@ -58,7 +76,7 @@
     "headline": "Election results",
     "text": "Milwaukee's local election results page management for Wisconsin's 2022 spring elections.",
     "role": "Connecting backend data servers to frontend design and monitoring/calling races on election night.",
-    "tools": "Digital Ocean, Node and Python",
+    "tools": "Digital Ocean, Amazon EC2, Node and Python",
     "awards": "",
     "link": "https://projects.jsonline.com/topics/election/2022/2/15/wisconsin-spring-primary-election-results.html"
   },

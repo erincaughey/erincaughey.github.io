@@ -1,33 +1,33 @@
 [
   {
-    "category": "Graphic",
-    "url": "https://www.sfchronicle.com/eastbay/article/east-bay-homeless-17179271.php",
-    "text": "A look at one Bay Area county's point in time homeless population count."
+    "category": "Scraping",
+    "url": "https://www.sfchronicle.com/projects/2022/sf-sro-evictions/",
+    "text": "S.F. leaders have set up some of the most vulnerable residents to fail."
   },
   {
     "category": "Data analysis",
     "url": "https://www.jsonline.com/in-depth/news/2022/01/26/prenatal-care-businesses-grow-under-cloud-fraud-infant-mortality/6111168001/",
-    "text": "Prenatal care services collect millions in taxpayer dollars. Signs of fraud surging"
+    "text": "Prenatal care services collect millions in taxpayer dollars. Signs of fraud are surging."
   },
   {
     "category": "Data analysis",
     "url": "https://www.jsonline.com/story/news/investigations/daniel-bice/2021/08/13/us-senate-candidate-alex-lasry-is-bucks-vice-president-dad-is-marc-lasry-worked-in-obama-white-house/5459367001/",
-    "text": "Alex Lasry's silver-spoon upbringing includes $50 million-plus trust"
+    "text": "Alex Lasry's silver-spoon upbringing includes $50 million-plus trust."
   },
   {
     "category": "Data analysis",
     "url": "https://www.jsonline.com/story/news/investigations/daniel-bice/2021/08/24/u-s-senate-candidate-godlewski-paid-no-state-income-taxes-2-years/8212403002/",
-    "text": "Sarah Godlewski paid no state income tax despite being worth millions"
+    "text": "Sarah Godlewski paid no state income tax despite being worth millions."
   },
   {
     "category": "Graphic",
     "url": "https://www.jsonline.com/story/sports/nba/bucks/2019/06/24/one-respect-wisconsin-made-mvp-history-giannis-getting-honored/1507314001/",
-    "text": "Wisconsin is now officially the pro-sports MVP capital of the United States"
+    "text": "Wisconsin is now officially the pro-sports MVP capital of the United States."
   },
   {
     "category": "Data analysis",
     "url": "https://www.jsonline.com/story/news/education/2020/10/15/wisconsins-2020-21-public-school-enrollment-drops-amid-covid-19/3652161001/",
-    "text": "Parents pulling kids from public school during COVID-19 leads to big enrollment drops"
+    "text": "Parents pulling kids from public school during COVID-19 leads to big enrollment drops."
   },
   {
     "category": "Scraping",
@@ -37,12 +37,12 @@
   {
     "category": "Graphic",
     "url": "https://www.jsonline.com/story/news/2020/08/26/kenosha-shooting-details-videos-show-scenes-wisconsin-protest/3442031001/",
-    "text": "Social media videos show what happened during Kenosha's deadly protest shooting"
+    "text": "Social media videos show what happened during Kenosha's deadly protest shooting."
   },
   {
     "category": "Data analysis",
     "url": "https://www.jsonline.com/story/news/politics/2021/08/12/census-wisconsin-grows-modestly-while-milwaukee-drops-1930-s-levels/8110913002/",
-    "text": "Wisconsin grows modestly and more diverse while Milwaukee falls to 1930s levels"
+    "text": "Wisconsin grows modestly and more diverse while Milwaukee falls to 1930s levels."
   },
   {
     "category": "Graphic",
@@ -52,11 +52,11 @@
   {
     "category": "Data analysis",
     "url": "https://www.jsonline.com/story/news/2020/11/25/wisconsins-local-health-officials-get-resistance-covid-19/6326707002/",
-    "text": "Chaos and resistance to COVID-19 measures hinder Wisconsin's response"
+    "text": "Chaos and resistance to COVID-19 measures hinder Wisconsin's response."
   },
   {
     "category": "Data analysis",
     "url": "https://www.jsonline.com/story/news/2020/04/29/coronavirus-wisconsin-no-bump-election-but-concerns-remain/3039357001/",
-    "text": "Voting didn't lead to spike in COVID-19, but concerns remain"
+    "text": "Voting didn't lead to spike in COVID-19, but concerns remain."
   }
 ]
