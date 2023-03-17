@@ -9,6 +9,15 @@
     "link": "https://observablehq.com/@erincaughey"
   },
   {
+    "images": "media/covid-ridgelines.png",
+    "headline": "What 3 years of Bay Area Google searches tell us about the pandemic",
+    "text": "An analysis of Google Trends data on search terms relevant to Bay Area residents about COVID-19 over three years.",
+    "role": "Reporting and development",
+    "tools": "R, D3 and React",
+    "awards": "",
+    "link": "https://www.sfchronicle.com/health/article/google-covid-bay-area-17841027.php"
+  },
+  {
     "images": "media/transit-trails.png",
     "headline": "Car-free hiking: 8 of the best Bay Area trails near public transportation",
     "text": "In tandem with a more in-depth analysis of Bay Area AllTrails data, this story finds some of the most transit accessible trails across the region.",
@@ -127,21 +136,12 @@
   },
   {
     "images": "media/wires-fires.png",
-    "headline": "Electrical fires hit Milwaukee's Black renters hardest. Nobody is held accountable.",
+    "headline": "Electrical fires hit Milwaukee's Black renters hardest",
     "text": "An investigation of electrical fires in Milwaukee's poorest neighborhoods. Pulitzer Prize Finalist in Public Service 2022.",
     "role": "Series design, graphics and project management.",
     "tools": "Svelte, Make and Illustrator",
     "awards": "",
     "link": "https://www.jsonline.com/in-depth/news/investigations/reports/2021/08/25/electrical-fires-milwaukee-pose-higher-risk-poor-black-renters/8061243002/"
-  },
-  {
-    "images": "media/ron-johnson.png",
-    "headline": "The Editorial Board responds to Senator Ron Johnson",
-    "text": "Senator Johnson responded to the Editorial Boaord's call for him to resign. The board added some more context.",
-    "role": "Page design.",
-    "tools": "",
-    "awards": "",
-    "link": "https://www.jsonline.com/in-depth/news/solutions/2021/01/19/sen-ron-johnson-calls-editorial-unhinged-editorial-board-responds/4204754001/"
   },
   {
     "images": "media/covid-timeline.jpeg",
@@ -198,15 +198,6 @@
     "link": "https://projects.jsonline.com/topics/coronavirus/by-the-numbers/how-coronavirus-is-affecting-wisconsin.html"
   },
   {
-    "images": "media/absentee-landlords.png",
-    "headline": "Out-of-state landlords are gobbling up Milwaukee homes to rent out",
-    "text": "An analysis of absentee landlords around Milwaukee's neighborhoods.",
-    "role": "Design and graphics.",
-    "tools": "Datawrapper",
-    "awards": "",
-    "link": "https://www.jsonline.com/in-depth/news/2021/04/15/milwaukee-rentals-overtaken-corporate-landlords-raking-profits/6989234002/"
-  },
-  {
     "images": "media/top30.png",
     "headline": "How many of Milwaukee's top restaurants have you eaten at?",
     "text": "An interactive guide to Milwaukee's best restaurants according to our food critic.",
@@ -241,15 +232,6 @@
     "tools": "Javascript",
     "awards": "",
     "link": "https://projects.jsonline.com/topics/50-year-ache/"
-  },
-  {
-    "images": "media/mexico.png",
-    "headline": "Mexico Blackouts",
-    "text": "A database of submitted blackout level incidents at popular Mexico resorts.",
-    "role": "Series production and database design.",
-    "tools": "",
-    "awards": "",
-    "link": "https://projects.jsonline.com/topics/mexico-blackouts-investigation/"
   },
   {
     "images": "media/unsolved-season-one.jpeg",
