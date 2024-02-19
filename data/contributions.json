@@ -1,5 +1,10 @@
 [
   {
+    "category": "Graphic",
+    "url": "https://www.sfchronicle.com/projects/2023/california-fire-flood/",
+    "text": "When fires create floods: Is California ready for a cascade of disasters?"
+  },
+  {
     "category": "Scraping",
     "url": "https://www.sfchronicle.com/projects/2022/sf-sro-evictions/",
     "text": "S.F. leaders have set up some of the most vulnerable residents to fail."

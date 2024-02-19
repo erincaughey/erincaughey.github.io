@@ -9,6 +9,51 @@
     "link": "https://observablehq.com/@erincaughey"
   },
   {
+    "images": "media/sfc-overdose-timeline.png",
+    "headline": "S.F.'s path to tragedy: How the city broke overdose death records",
+    "text": "An analysis of overdose deaths in San Francisco over a 5 year period after the city broke records in 2023.",
+    "role": "Storyboarding and graphic developement",
+    "tools": "D3 and React",
+    "awards": "",
+    "link": "https://www.sfchronicle.com/projects/2024/san-francisco-overdose-deaths-timeline/"
+  },
+  {
+    "images": "media/sfc-firefighter-health.png",
+    "headline": "Firefighters are being poisoned by wildfire smoke. We're doing little to protect their health",
+    "text": "Visual explainer of how different types of masks work for wildland and urban firefighters.",
+    "role": "Graphics",
+    "tools": "React",
+    "awards": "",
+    "link": "https://www.sfchronicle.com/projects/2023/firefighter-health/"
+  },
+  {
+    "images": "media/sfc-big-melt.png",
+    "headline": "The Big Melt transformed California. A journey down a great river shows how.",
+    "text": "Maps following the path of the Feather River from the Seirra range to San Francisco Bay with analysis of how the recording breaking wet season effected communities, agriculture and business along the way.",
+    "role": "Storyboarding and graphic developement",
+    "tools": "React, QGIS, ai2html and Sentinel Hub satellite imagery",
+    "awards": "",
+    "link": "https://www.sfchronicle.com/projects/2023/california-big-melt-water/"
+  },
+  {
+    "images": "media/sfc-tulare.png",
+    "headline": "Satellite photos show California's long-dead Tulare Lake springing back to life",
+    "text": "A visual look at the return of Tulare Lake area after major flooding in California's central valley.",
+    "role": "Reporting and graphics",
+    "tools": "Sentinel Hub satellite imagery",
+    "awards": "",
+    "link": "https://www.sfchronicle.com/california/article/tulare-lake-satellite-photos-17878619.php"
+  },
+  {
+    "images": "media/sfc-flooding-sliders.png",
+    "headline": "Satellite images show devastating impacts of flooding across California",
+    "text": "An overview and analysis of flood areas during one of California's wettest seasons on record in 2023.",
+    "role": "Reporting and development",
+    "tools": "React and Sentinel Hub satellite imagery",
+    "awards": "",
+    "link": "https://www.sfchronicle.com/california/article/california-flooding-satellite-17857029.php"
+  },
+  {
     "images": "media/covid-ridgelines.png",
     "headline": "What 3 years of Bay Area Google searches tell us about the pandemic",
     "text": "An analysis of Google Trends data on search terms relevant to Bay Area residents about COVID-19 over three years.",
@@ -75,7 +120,7 @@
     "images": "media/home-styles.png",
     "headline": "Explore Milwaukee's history through its many home styles",
     "text": "A historical analysis and visualization of the types of homes that built Milwaukee.",
-    "role": "Page design, development and project management.",
+    "role": "Page design, development and project management",
     "tools": "R, Mapbox, and D3",
     "awards": "",
     "link": "https://www.jsonline.com/in-depth/news/local/2022/03/31/milwaukee-home-styles-architecture-reveal-citys-history-bungalows-craftsman-duplex/6835671001/"
@@ -84,7 +129,7 @@
     "images": "media/results.png",
     "headline": "Election results",
     "text": "Milwaukee's local election results page management for Wisconsin's 2022 spring elections.",
-    "role": "Connecting backend data servers to frontend design and monitoring/calling races on election night.",
+    "role": "Data server monitoring and to frontend design; Calling races on election night",
     "tools": "Digital Ocean, Amazon EC2, Node and Python",
     "awards": "",
     "link": "https://projects.jsonline.com/topics/election/2022/2/15/wisconsin-spring-primary-election-results.html"
@@ -93,7 +138,7 @@
     "images": "media/voter-guide-2.png",
     "headline": "Voter Guide",
     "text": "Frequently Asked Questions and information about voting in the Wisconsin elections.",
-    "role": "Page design, development, map graphic, social sharing graphics and FAQ content updating.",
+    "role": "Page design, development, map and social graphics, and content updates",
     "tools": "Svelte, Datawrapper and Illustrator",
     "awards": "",
     "link": "https://projects.jsonline.com/topics/election/voter-guide/register-to-vote-early-voting-request-ballot-days-until-election-day.html"
@@ -102,7 +147,7 @@
     "images": "media/deer-accidents.png",
     "headline": "Deer accidents",
     "text": "Annual analysis and data graphics on deer crashes across the state of Wisconsin.",
-    "role": "Analysis and reporting.",
+    "role": "Analysis and reporting",
     "tools": "R, Excel, Mapbox and Infogram",
     "awards": "",
     "link": "https://www.jsonline.com/story/money/2021/11/04/wisconsin-deer-crashes-you-could-hit-one-just-anywhere/8473214002/"
@@ -111,7 +156,7 @@
     "images": "media/calculator.png",
     "headline": "Calculate how you can save with a 529 account",
     "text": "Calculator to go with solutions based series on 529 college savings plans.",
-    "role": "Analysis and development.",
+    "role": "Analysis and development",
     "tools": "Svelte, Javascript",
     "awards": "",
     "link": "https://projects.jsonline.com/topics/steps-to-success/529-calculator/index.html"
