@@ -1,308 +1,43 @@
 [
-  {
-    "images": "media/observable.png",
-    "headline": "Observable: Visualizations for fun and testing",
-    "text": "Playground for prototyping new visualization features, reporting tools and interesting data.",
-    "role": "",
-    "tools": "D3, Javascript",
-    "awards": "",
-    "link": "https://observablehq.com/@erincaughey"
-  },
-  {
-    "images": "media/sfc-overdose-timeline.png",
-    "headline": "S.F.'s path to tragedy: How the city broke overdose death records",
-    "text": "An analysis of overdose deaths in San Francisco over a 5 year period after the city broke records in 2023.",
-    "role": "Storyboarding and graphic developement",
-    "tools": "D3 and React",
-    "awards": "",
-    "link": "https://www.sfchronicle.com/projects/2024/san-francisco-overdose-deaths-timeline/"
-  },
-  {
-    "images": "media/sfc-firefighter-health.png",
-    "headline": "Firefighters are being poisoned by wildfire smoke. We're doing little to protect their health",
-    "text": "Visual explainer of how different types of masks work for wildland and urban firefighters.",
-    "role": "Graphics",
-    "tools": "React",
-    "awards": "",
-    "link": "https://www.sfchronicle.com/projects/2023/firefighter-health/"
-  },
-  {
-    "images": "media/sfc-big-melt.png",
-    "headline": "The Big Melt transformed California. A journey down a great river shows how.",
-    "text": "Maps following the path of the Feather River from the Seirra range to San Francisco Bay with analysis of how the recording breaking wet season effected communities, agriculture and business along the way.",
-    "role": "Storyboarding and graphic developement",
-    "tools": "React, QGIS, ai2html and Sentinel Hub satellite imagery",
-    "awards": "",
-    "link": "https://www.sfchronicle.com/projects/2023/california-big-melt-water/"
-  },
-  {
-    "images": "media/sfc-tulare.png",
-    "headline": "Satellite photos show California's long-dead Tulare Lake springing back to life",
-    "text": "A visual look at the return of Tulare Lake area after major flooding in California's central valley.",
-    "role": "Reporting and graphics",
-    "tools": "Sentinel Hub satellite imagery",
-    "awards": "",
-    "link": "https://www.sfchronicle.com/california/article/tulare-lake-satellite-photos-17878619.php"
-  },
-  {
-    "images": "media/sfc-flooding-sliders.png",
-    "headline": "Satellite images show devastating impacts of flooding across California",
-    "text": "An overview and analysis of flood areas during one of California's wettest seasons on record in 2023.",
-    "role": "Reporting and development",
-    "tools": "React and Sentinel Hub satellite imagery",
-    "awards": "",
-    "link": "https://www.sfchronicle.com/california/article/california-flooding-satellite-17857029.php"
-  },
-  {
-    "images": "media/covid-ridgelines.png",
-    "headline": "What 3 years of Bay Area Google searches tell us about the pandemic",
-    "text": "An analysis of Google Trends data on search terms relevant to Bay Area residents about COVID-19 over three years.",
-    "role": "Reporting and development",
-    "tools": "R, D3 and React",
-    "awards": "",
-    "link": "https://www.sfchronicle.com/health/article/google-covid-bay-area-17841027.php"
-  },
-  {
-    "images": "media/transit-trails.png",
-    "headline": "Car-free hiking: 8 of the best Bay Area trails near public transportation",
-    "text": "In tandem with a more in-depth analysis of Bay Area AllTrails data, this story finds some of the most transit accessible trails across the region.",
-    "role": "Reporting and development",
-    "tools": "React and Maplibre",
-    "awards": "",
-    "link": "https://www.sfchronicle.com/projects/2022/bay-area-hiking-trails-near-public-transportation/"
-  },
-  {
-    "images": "media/lightning.png",
-    "headline": "Why lightning is rare but dangerous in the Bay Area",
-    "text": "Launching The Chronicle's Weather Wonks team with an analysis on lightning in the Bay Area.",
-    "role": "Development and design",
-    "tools": "React and D3",
-    "awards": "",
-    "link": "https://www.sfchronicle.com/projects/2022/weather-lightning/"
-  },
-  {
-    "images": "media/drought.png",
-    "headline": "Drought Tracker",
-    "text": "New updates adding map data to The Chronicle's database tracking Bay Area reservoir levels.",
-    "role": "Development and design",
-    "tools": "React and Mapbox",
-    "awards": "",
-    "link": "https://www.sfchronicle.com/projects/drought-map-water-restrictions-bay-area/"
-  },
-  {
-    "images": "media/noodles.png",
-    "headline": "Build a random noodle bowl",
-    "text": "Randomly generate your toppings in a bowl of noodles from a S.F. Hong Kong style noodle restaurant.",
-    "role": "Development collaboration",
-    "tools": "React",
-    "awards": "",
-    "link": "https://www.sfchronicle.com/food/restaurants/article/san-francisco-noodles-17277256.php"
-  },
-  {
-    "images": "media/sfnext.png",
-    "headline": "SFNext data dashboard",
-    "text": "A collection data on topics concerning San Francisco issues as the city works it's way out of the pandemic.",
-    "role": "Development and design",
-    "tools": "React and D3",
-    "awards": "",
-    "link": "https://www.sfchronicle.com/projects/2022/fixing-san-francisco-problems/sfnext-about-the-project"
-  },
-  {
-    "images": "media/small-multiples.png",
-    "headline": "Small multiples graphic tool",
-    "text": "A tool run through Google Sheets and React templates to help reporters easily build D3 small multiple graphics to embed in stories.",
-    "role": "Development",
-    "tools": "React and D3",
-    "awards": "",
-    "link": "https://www.sfchronicle.com/eastbay/article/east-bay-homeless-17179271.php"
-  },
-  {
-    "images": "media/home-styles.png",
-    "headline": "Explore Milwaukee's history through its many home styles",
-    "text": "A historical analysis and visualization of the types of homes that built Milwaukee.",
-    "role": "Page design, development and project management",
-    "tools": "R, Mapbox, and D3",
-    "awards": "",
-    "link": "https://www.jsonline.com/in-depth/news/local/2022/03/31/milwaukee-home-styles-architecture-reveal-citys-history-bungalows-craftsman-duplex/6835671001/"
-  },
-  {
-    "images": "media/results.png",
-    "headline": "Election results",
-    "text": "Milwaukee's local election results page management for Wisconsin's 2022 spring elections.",
-    "role": "Data server monitoring and to frontend design; Calling races on election night",
-    "tools": "Digital Ocean, Amazon EC2, Node and Python",
-    "awards": "",
-    "link": "https://projects.jsonline.com/topics/election/2022/2/15/wisconsin-spring-primary-election-results.html"
-  },
-  {
-    "images": "media/voter-guide-2.png",
-    "headline": "Voter Guide",
-    "text": "Frequently Asked Questions and information about voting in the Wisconsin elections.",
-    "role": "Page design, development, map and social graphics, and content updates",
-    "tools": "Svelte, Datawrapper and Illustrator",
-    "awards": "",
-    "link": "https://projects.jsonline.com/topics/election/voter-guide/register-to-vote-early-voting-request-ballot-days-until-election-day.html"
-  },
-  {
-    "images": "media/deer-accidents.png",
-    "headline": "Deer accidents",
-    "text": "Annual analysis and data graphics on deer crashes across the state of Wisconsin.",
-    "role": "Analysis and reporting",
-    "tools": "R, Excel, Mapbox and Infogram",
-    "awards": "",
-    "link": "https://www.jsonline.com/story/money/2021/11/04/wisconsin-deer-crashes-you-could-hit-one-just-anywhere/8473214002/"
-  },
-  {
-    "images": "media/calculator.png",
-    "headline": "Calculate how you can save with a 529 account",
-    "text": "Calculator to go with solutions based series on 529 college savings plans.",
-    "role": "Analysis and development",
-    "tools": "Svelte, Javascript",
-    "awards": "",
-    "link": "https://projects.jsonline.com/topics/steps-to-success/529-calculator/index.html"
-  },
-  {
-    "images": "media/bucks.png",
-    "headline": "How the two Milwaukee Bucks championship teams compare",
-    "text": "A graphic story comparing the two Milwaukee Bucks NBA championship teams, 50 years apart.",
-    "role": "Research, analysis, digital and print graphics.",
-    "tools": "Datawrapper and Illustrator",
-    "awards": "",
-    "link": "https://www.jsonline.com/story/sports/nba/bucks/2021/07/21/nba-finals-how-milwaukee-bucks-championship-teams-compare/8024186002/"
-  },
-  {
-    "images": "media/mke-poll.png",
-    "headline": "How Milwaukee residents view defunding the police, what it means",
-    "text": "A survey and breakdown of how Milwaukee residents feel about defunding the police.",
-    "role": "Analysis, converted graphics for print.",
-    "tools": "R, Excel, Infogram and Illustrator",
-    "awards": "",
-    "link": "https://www.jsonline.com/story/news/2021/06/24/how-milwaukee-residents-view-defunding-police-and-what-means/5299272001/"
-  },
-  {
-    "images": "media/wires-fires.png",
-    "headline": "Electrical fires hit Milwaukee's Black renters hardest",
-    "text": "An investigation of electrical fires in Milwaukee's poorest neighborhoods. Pulitzer Prize Finalist in Public Service 2022.",
-    "role": "Series design, graphics and project management.",
-    "tools": "Svelte, Make and Illustrator",
-    "awards": "",
-    "link": "https://www.jsonline.com/in-depth/news/investigations/reports/2021/08/25/electrical-fires-milwaukee-pose-higher-risk-poor-black-renters/8061243002/"
-  },
-  {
-    "images": "media/covid-timeline.jpeg",
-    "headline": "A timeline of how the COVID-19 pandemic has played out in Wisconsin",
-    "text": "A look back at one year of COVID in Wisconsin.",
-    "role": "Page design and graphics.",
-    "tools": "R and Illustrator",
-    "awards": "",
-    "link": "https://www.jsonline.com/in-depth/news/local/milwaukee/2021/03/11/timeline-how-covid-19-has-played-out-wisconsin/4522813001/"
-  },
-  {
-    "images": "media/covid-tracker.png",
-    "headline": "Track COVID-19 and the vaccine in Wisconsin",
-    "text": "An evolving dashboard of daily cases, deaths, vaccines and more.",
-    "role": "Page design, graphic and data updates.",
-    "tools": "Svelte, D3, Make, Python, Google Sheets to S3",
-    "awards": "",
-    "link": "https://projects.jsonline.com/topics/coronavirus/tracking/covid-19-cases-testing-and-deaths-in-wisconsin.html"
-  },
-  {
-    "images": "media/fpc.png",
-    "headline": "Abuse of Trust",
-    "text": "An investigation into conflicts of interest in Milwaukee's Fire and Police Commission. Eppy Award (2021) for Best innovation project on a website.",
-    "role": "Series design, network graphics, social sharing graphics and project management.",
-    "tools": "D3 and Illustrator",
-    "awards": "",
-    "link": "https://www.jsonline.com/in-depth/news/2021/02/24/milwaukee-police-fire-and-police-commission-government-connected-abuse-of-trust/4494426001/"
-  },
-  {
-    "images": "media/shadows2.png",
-    "headline": "In the Shadows",
-    "text": "An investigation into hospital parking garages and the safety of employees and patients.",
-    "role": "Series design, graphics and project management.",
-    "tools": "R and Illustrator",
-    "awards": "",
-    "link": "https://www.jsonline.com/in-depth/news/investigations/2020/08/19/parking-garage-safety-ignored-decades-hospitals-workers-say/3367612001/"
-  },
-  {
-    "images": "media/one-year.png",
-    "headline": "These are just a fraction of the people Wisconsin lost to COVID in a single week",
-    "text": "Looking back at the lives lost during a short span in November 2020.",
-    "role": "Page design and graphics.",
-    "tools": "Illustrator",
-    "awards": "",
-    "link": "https://www.jsonline.com/in-depth/news/2020/11/27/week-wisconsin-coronavirus-deaths-meet-people-gone-too-soon/6411883002/"
-  },
-  {
-    "images": "media/covid-early.png",
-    "headline": "How Coronavirus is affecting Wisconsin",
-    "text": "A by-the-numbers graphic breakdown of how the first couple months of the pandemic affected the city.",
-    "role": "Data requests, analysis and converting graphics for print and social.",
-    "tools": "R",
-    "awards": "",
-    "link": "https://projects.jsonline.com/topics/coronavirus/by-the-numbers/how-coronavirus-is-affecting-wisconsin.html"
-  },
-  {
-    "images": "media/top30.png",
-    "headline": "How many of Milwaukee's top restaurants have you eaten at?",
-    "text": "An interactive guide to Milwaukee's best restaurants according to our food critic.",
-    "role": "Design and development.",
-    "tools": "Svelte and Javascript",
-    "awards": "",
-    "link": "https://projects.jsonline.com/topics/top-restaurants/2019/search-milwaukees-best-restaurants.html"
-  },
-  {
-    "images": "media/dairy.png",
-    "headline": "Dairyland in Distress",
-    "text": "A collection of a year's worth of reporting on Wisconsin’s dairy industry. SABEW 2019 Best in Business reporting award.",
-    "role": "Series design, development, project management and production. Individual data graphic contributions.",
-    "tools": "Svelte, D3 and Illustrator",
-    "awards": "<a href=\"https://sabew.org/2019-best-in-business-honorees/\">SABEW 2019 Innovation</a>",
-    "link": "https://projects.jsonline.com/topics/dairy-crisis/dairyland-in-distress.html"
-  },
-  {
-    "images": "media/lessons-lost.png",
-    "headline": "Lessons Lost",
-    "text": "Tracking the impact of student mobility on performance. Online News Association 2019 The University of Florida Award for Investigative Data Journalism.",
-    "role": "Series design, graphics and project management.",
-    "tools": "D3",
-    "awards": "<a href=\"https://awards.journalists.org/entries/lessons-lost/\">2019 The University of Florida Award for Investigative Data Journalism</a>, Online Journalism Awards",
-    "link": "https://projects.jsonline.com/news/2018/10/5/high-student-turnover-in-milwaukee-stalls-achievement-despite-reforms.html"
-  },
-  {
-    "images": "media/50year.png",
-    "headline": "50-year Ache",
-    "text": "An interactive historical look at Milwaukee 50 years after the 1967 civil rights marches.",
-    "role": "Page design and development.",
-    "tools": "Javascript",
-    "awards": "",
-    "link": "https://projects.jsonline.com/topics/50-year-ache/"
-  },
-  {
-    "images": "media/unsolved-season-one.jpeg",
-    "headline": "Unsolved",
-    "text": "A true-crime podcast produced for three seasons. A National Edward R. Murrow, ASNE and SPJ Sigma Delta Chi award winner.",
-    "role": "Project management, design and development for three seasons.",
-    "tools": "Javascript",
-    "awards": "",
-    "link": "https://projects.jsonline.com/topics/unsolved/season-three/the-devil-you-know.html"
-  },
-  {
-    "images": "media/beer-near2.png",
-    "headline": "Beer Near",
-    "text": "An interactive guide to every Wisconsin brewery and brewpub.",
-    "role": "Design, development and database updating.",
-    "tools": "React",
-    "awards": "",
-    "link": "https://projects.jsonline.com/apps/BeerNear/"
-  },
-  {
-    "images": "media/great-lakes.jpeg",
-    "headline": "Rainy spring, cold winter help buoy Great Lakes levels",
-    "text": "Reporting on the Great Lakes as part of a Marquette O'Brien Fellowship internship.",
-    "role": "Reporting, photo and video.",
-    "tools": "",
-    "awards": "",
-    "link": "http://archive.jsonline.com/watchdog/rainy-spring-cold-winter-help-buoy-great-lakes-levels-b99309434z1-267082221.html/"
-  }
+{"images":"media/observable.png","headline":"Observable: Visualizations for fun and testing","text":"Playground for prototyping new visualization features, reporting tools and interesting data.","role":"","tools":"D3, Javascript","awards":"","link":"https://observablehq.com/@erincaughey"},
+{"images":"media/underinsurance.png","headline":"A broken system is keeping California homes underinsured","text":"An investigation into insurance companies operating in California using faulty algorithms and flawed processes to routinely underestimate what their clients will need to rebuild, especailly after wildfires.","role":"Project management, design and development","tools":"React","awards":"","link":"https://www.sfchronicle.com/projects/2025/california-home-insurance-underinsured/"},
+{"images":"media/pursuits-race-deaths.png","headline":"Police chases claim nearly 700 lives a year. Black people are more likely to die.","text":"A national investigation by the San Francisco Chronicle into deadly police chases.","role":"Project manaement, design and development","tools":"D3, React","awards":"","link":"https://www.sfchronicle.com/projects/2024/police-pursuits-race-deaths/"},
+{"images":"media/brat.png","headline":"Bay Area Brats: The definitive list","text":"A stylized list of local Bay Area figures that fit the definition of Charlie XCX's \"Brat.\"","role":"Development and design","tools":"React","awards":"","link":"https://www.sfchronicle.com/projects/2024/sf-brat-list/"},
+{"images":"media/mlkway.png","headline":"How Oakland's MLK Jr. Way symbolizes his unrealized dream","text":"A visual analysis of the six miles of Martin Luther King Jr. Way through Oakland and Berkeley, and the divergent realities in the communities it connects.","role":"Development and project management","tools":"React","awards":"","link":"https://www.sfchronicle.com/projects/2024/mlk-way-oakland-berkeley/"},
+{"images":"media/sfc-overdose-timeline.png","headline":"S.F.’s path to tragedy: How the city broke overdose death records","text":"Analysis of overdose deaths in San Francisco over a 5 year period after the city broke records in 2023.","role":"Storyboarding and graphic developement","tools":"D3 and React","awards":"","link":"https://www.sfchronicle.com/projects/2024/san-francisco-overdose-deaths-timeline/"}
+,
+{"images":"media/sfc-firefighter-health.png","headline":"Firefighters are being poisoned by wildfire smoke. We’re doing little to protect them","text":"Visual explainer of how different types of masks work for wildland and urban firefighters.","role":"Graphics","tools":"React","awards":"","link":"https://www.sfchronicle.com/projects/2023/firefighter-health/"}
+,
+{"images":"media/sfc-big-melt.png","headline":"The Big Melt transformed California. A journey down a great river shows how.","text":"Maps following the path of the Feather River from the Seirra range to San Francisco Bay with analysis of how the recording breaking wet season effected communities, agriculture and business along the way.","role":"Storyboarding and graphic developement","tools":"React, QGIS, ai2html and Sentinel Hub satellite imagery","awards":"","link":"https://www.sfchronicle.com/projects/2023/california-big-melt-water/"},
+{"images":"media/sfc-tulare.png","headline":"Satellite photos show California's long-dead Tulare Lake springing back to life","text":"A visual look at the return of Tulare Lake area after major flooding in California's central valley.","role":"Reporting and graphics","tools":"Sentinel Hub satellite imagery","awards":"","link":"https://www.sfchronicle.com/california/article/tulare-lake-satellite-photos-17878619.php"},
+{"images":"media/sfc-flooding-sliders.png","headline":"Satellite images show devastating impacts of flooding across California","text":"An overview and analysis of flood areas during one of California's wettest seasons on record in 2023.","role":"Reporting and development","tools":"React and Sentinel Hub satellite imagery","awards":"","link":"https://www.sfchronicle.com/california/article/california-flooding-satellite-17857029.php"},
+{"images":"media/covid-ridgelines.png","headline":"What 3 years of Bay Area Google searches tell us about the pandemic","text":"An analysis of Google Trends data on search terms relevant to Bay Area residents about COVID-19 over three years.","role":"Reporting and development","tools":"R, D3 and React","awards":"","link":"https://www.sfchronicle.com/health/article/google-covid-bay-area-17841027.php"},
+{"images":"media/transit-trails.png","headline":"Car-free hiking: 8 of the best Bay Area trails near public transportation","text":"In tandem with a more in-depth analysis of Bay Area AllTrails data, this story finds some of the most transit accessible trails across the region.","role":"Reporting and development","tools":"React and Maplibre","awards":"","link":"https://www.sfchronicle.com/projects/2022/bay-area-hiking-trails-near-public-transportation/"},
+{"images":"media/lightning.png","headline":"Why lightning is rare but dangerous in the Bay Area","text":"Launching The Chronicle's Weather Wonks team with an analysis on lightning in the Bay Area.","role":"Development and design","tools":"React and D3","awards":"","link":"https://www.sfchronicle.com/projects/2022/weather-lightning/"},
+{"images":"media/drought.png","headline":"Drought Tracker","text":"New updates adding map data to The Chronicle's database tracking Bay Area reservoir levels.","role":"Development and design","tools":"React and Mapbox","awards":"","link":"https://www.sfchronicle.com/projects/drought-map-water-restrictions-bay-area/"},
+{"images":"media/noodles.png","headline":"Build a random noodle bowl","text":"Randomly generate your toppings in a bowl of noodles from a S.F. Hong Kong style noodle restaurant.","role":"Development collaboration","tools":"React","awards":"","link":"https://www.sfchronicle.com/food/restaurants/article/san-francisco-noodles-17277256.php"},
+{"images":"media/sfnext.png","headline":"SFNext data dashboard","text":"A collection data on topics concerning San Francisco issues as the city works it's way out of the pandemic.","role":"Development and design","tools":"React and D3","awards":"","link":"https://www.sfchronicle.com/projects/2022/fixing-san-francisco-problems/sfnext-about-the-project"},
+{"images":"media/small-multiples.png","headline":"Small multiples graphic tool","text":"A tool run through Google Sheets and React templates to help reporters easily build D3 small multiple graphics to embed in stories.","role":"Development","tools":"React and D3","awards":"","link":"https://www.sfchronicle.com/eastbay/article/east-bay-homeless-17179271.php"},
+{"images":"media/home-styles.png","headline":"Explore Milwaukee's history through its many home styles","text":"A historical analysis and visualization of the types of homes that built Milwaukee.","role":"Page design, development and project management","tools":"R, Mapbox, and D3","awards":"","link":"https://www.jsonline.com/in-depth/news/local/2022/03/31/milwaukee-home-styles-architecture-reveal-citys-history-bungalows-craftsman-duplex/6835671001/"},
+{"images":"media/results.png","headline":"Election results","text":"Milwaukee's local election results page management for Wisconsin's 2022 spring elections.","role":"Data server monitoring and to frontend design; Calling races on election night","tools":"Digital Ocean, Amazon EC2, Node and Python","awards":"","link":"https://projects.jsonline.com/topics/election/2022/2/15/wisconsin-spring-primary-election-results.html"},
+{"images":"media/voter-guide-2.png","headline":"Voter Guide","text":"Frequently Asked Questions and information about voting in the Wisconsin elections.","role":"Page design, development, map and social graphics, and content updates","tools":"Svelte, Datawrapper and Illustrator","awards":"","link":"https://projects.jsonline.com/topics/election/voter-guide/register-to-vote-early-voting-request-ballot-days-until-election-day.html"},
+{"images":"media/deer-accidents.png","headline":"Deer accidents","text":"Annual analysis and data graphics on deer crashes across the state of Wisconsin.","role":"Analysis and reporting","tools":"R, Excel, Mapbox and Infogram","awards":"","link":"https://www.jsonline.com/story/money/2021/11/04/wisconsin-deer-crashes-you-could-hit-one-just-anywhere/8473214002/"},
+{"images":"media/calculator.png","headline":"Calculate how you can save with a 529 account","text":"Calculator to go with solutions based series on 529 college savings plans.","role":"Analysis and development","tools":"Svelte, Javascript","awards":"","link":"https://projects.jsonline.com/topics/steps-to-success/529-calculator/index.html"},
+{"images":"media/bucks.png","headline":"How the two Milwaukee Bucks championship teams compare","text":"A graphic story comparing the two Milwaukee Bucks NBA championship teams, 50 years apart.","role":"Research, analysis, digital and print graphics","tools":"Datawrapper and Illustrator","awards":"","link":"https://www.jsonline.com/story/sports/nba/bucks/2021/07/21/nba-finals-how-milwaukee-bucks-championship-teams-compare/8024186002/"},
+{"images":"media/mke-poll.png","headline":"How Milwaukee residents view defunding the police, what it means","text":"A survey and breakdown of how Milwaukee residents feel about defunding the police.","role":"Analysis, converted graphics for print","tools":"R, Excel, Infogram and Illustrator","awards":"","link":"https://www.jsonline.com/story/news/2021/06/24/how-milwaukee-residents-view-defunding-police-and-what-means/5299272001/"},
+{"images":"media/wires-fires.png","headline":"Electrical fires hit Milwaukee's Black renters hardest","text":"An investigation of electrical fires in Milwaukee's poorest neighborhoods. Pulitzer Prize Finalist in Public Service 2022.","role":"Series design, graphics and project management","tools":"Svelte, Make and Illustrator","awards":"","link":"https://www.jsonline.com/in-depth/news/investigations/reports/2021/08/25/electrical-fires-milwaukee-pose-higher-risk-poor-black-renters/8061243002/"},
+{"images":"media/covid-timeline.jpeg","headline":"A timeline of how the COVID-19 pandemic has played out in Wisconsin","text":"A look back at one year of COVID in Wisconsin.","role":"Page design and graphics","tools":"R and Illustrator","awards":"","link":"https://www.jsonline.com/in-depth/news/local/milwaukee/2021/03/11/timeline-how-covid-19-has-played-out-wisconsin/4522813001/"},
+{"images":"media/covid-tracker.png","headline":"Track COVID-19 and the vaccine in Wisconsin","text":"An evolving dashboard of daily cases, deaths, vaccines and more.","role":"Page design, graphic and data updates","tools":"Svelte, D3, Make, Python, Google Sheets to S3","awards":"","link":"https://projects.jsonline.com/topics/coronavirus/tracking/covid-19-cases-testing-and-deaths-in-wisconsin.html"},
+{"images":"media/fpc.png","headline":"Abuse of Trust","text":"An investigation into conflicts of interest in Milwaukee's Fire and Police Commission. Eppy Award (2021) for Best innovation project on a website.","role":"Series design, network graphics, social sharing graphics and project management","tools":"D3 and Illustrator","awards":"","link":"https://www.jsonline.com/in-depth/news/2021/02/24/milwaukee-police-fire-and-police-commission-government-connected-abuse-of-trust/4494426001/"},
+{"images":"media/shadows2.png","headline":"In the Shadows","text":"An investigation into hospital parking garages and the safety of employees and patients.","role":"Series design, graphics and project management","tools":"R and Illustrator","awards":"","link":"https://www.jsonline.com/in-depth/news/investigations/2020/08/19/parking-garage-safety-ignored-decades-hospitals-workers-say/3367612001/"},
+{"images":"media/one-year.png","headline":"These are just a fraction of the people Wisconsin lost to COVID in a single week","text":"Looking back at the lives lost during a short span in November 2020.","role":"Page design and graphics","tools":"Illustrator","awards":"","link":"https://www.jsonline.com/in-depth/news/2020/11/27/week-wisconsin-coronavirus-deaths-meet-people-gone-too-soon/6411883002/"},
+{"images":"media/covid-early.png","headline":"How Coronavirus is affecting Wisconsin","text":"A by-the-numbers graphic breakdown of how the first couple months of the pandemic affected the city.","role":"Data requests, analysis and converting graphics for print and social","tools":"R","awards":"","link":"https://projects.jsonline.com/topics/coronavirus/by-the-numbers/how-coronavirus-is-affecting-wisconsin.html"},
+{"images":"media/top30.png","headline":"How many of Milwaukee's top restaurants have you eaten at?","text":"An interactive guide to Milwaukee's best restaurants according to our food critic.","role":"Design and development","tools":"Svelte and Javascript","awards":"","link":"https://projects.jsonline.com/topics/top-restaurants/2019/search-milwaukees-best-restaurants.html"},
+{"images":"media/dairy.png","headline":"Dairyland in Distress","text":"A collection of a year's worth of reporting on Wisconsin’s dairy industry. SABEW 2019 Best in Business reporting award.","role":"Series design, development, project management and production. Individual data graphic contributions","tools":"Svelte, D3 and Illustrator","awards":"<a href=\"https://sabew.org/2019-best-in-business-honorees/\">SABEW 2019 Innovation</a>","link":"https://projects.jsonline.com/topics/dairy-crisis/dairyland-in-distress.html"}
+,
+{"images":"media/lessons-lost.png","headline":"Lessons Lost","text":"Tracking the impact of student mobility on performance. Online News Association 2019 The University of Florida Award for Investigative Data Journalism.","role":"Series design, graphics and project management","tools":"D3","awards":"<a href=\"https://awards.journalists.org/entries/lessons-lost/\">2019 The University of Florida Award for Investigative Data Journalism</a>, Online Journalism Awards","link":"https://projects.jsonline.com/news/2018/10/5/high-student-turnover-in-milwaukee-stalls-achievement-despite-reforms.html"},
+{"images":"media/50year.png","headline":"50-year Ache","text":"An interactive historical look at Milwaukee 50 years after the 1967 civil rights marches.","role":"Page design and development","tools":"Javascript","awards":"","link":"https://projects.jsonline.com/topics/50-year-ache/"},
+{"images":"media/unsolved-season-one.jpeg","headline":"Unsolved","text":"A true-crime podcast produced for three seasons. A National Edward R. Murrow, ASNE and SPJ Sigma Delta Chi award winner.","role":"Project management, design and development for three seasons","tools":"Javascript","awards":"","link":"https://projects.jsonline.com/topics/unsolved/season-three/the-devil-you-know.html"},
+{"images":"media/beer-near2.png","headline":"Beer Near","text":"An interactive guide to every Wisconsin brewery and brewpub.","role":"Design, development and database updating","tools":"React","awards":"","link":"https://projects.jsonline.com/apps/BeerNear/"},
+{"images":"media/great-lakes.jpeg","headline":"Rainy spring, cold winter help buoy Great Lakes levels","text":"Reporting on the Great Lakes as part of a Marquette O'Brien Fellowship internship.","role":"Reporting, photo and video","tools":"","awards":"","link":"http://archive.jsonline.com/watchdog/rainy-spring-cold-winter-help-buoy-great-lakes-levels-b99309434z1-267082221.html/"}
 ]
